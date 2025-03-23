@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юра вчить англійську</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Юра вчить англійські слова!</h1>
+    <div id="card-container">
+        <div class="card" onclick="playSound('apple')">
+            <img src="apple.jpg" alt="Яблоко">
+            <p>Apple — яблоко</p>
+            <audio id="apple" src="apple.mp3"></audio>
+        </div>
+        <div class="card" onclick="playSound('cat')">
+            <img src="cat.jpg" alt="Кот">
+            <p>Cat — кот</p>
+            <audio id="cat" src="cat.mp3"></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
